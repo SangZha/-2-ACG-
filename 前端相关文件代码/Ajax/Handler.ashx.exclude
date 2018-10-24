@@ -1,0 +1,23 @@
+﻿<%@ WebHandler Language="C#" Class="Handler" %>
+
+using System;
+using System.Web;
+
+public class Handler : IHttpHandler {
+    
+    public void ProcessRequest (HttpContext context) {
+        context.Response.ContentType = "text/plain";
+               string OriPass = context.Request.Form["OriginalPass"];   //原始密码(Get传参对应QueryString)
+               string txtNewPass = context.Request.Form["NewPass"];     //新密码
+               string txtConfirmPass = context.Request.Form["RePass"];  //确认密码
+  　　　　　/*-----这里可以写调用的函数------*/
+               context.Response.Write(OriPass);   //返回信息
+    }
+ 
+    public bool IsReusable {
+        get {
+            return false;
+        }
+    }
+
+}

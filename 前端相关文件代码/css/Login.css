@@ -1,0 +1,135 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html,body{
+       padding:0;
+	   margin:0;
+       width: 100%;
+       height: 100%; 
+	   overflow:hidden;
+	   -moz-user-select: none; 
+	   -webkit-user-select: none; 
+	   -ms-user-select: none;  
+	   user-select: none; 	   
+   }
+   h1{
+       font-size:52px;
+	   font-weight:800;
+	   font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	   letter-spacing:10px;
+	   color:#525558;
+	   margin:0 auto;
+   }
+   h2{
+       letter-spacing:-1px;
+	   font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif
+   }
+   input{
+       border:1px solid #b9c1c7;
+	   border-radius:4px;
+	   width:100%;
+	   padding:10px;
+	   font-size:18px;
+	   box-sizing:border-box;
+	   outline:none;
+       font-family:'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+       background-color:#fff;
+   }
+   #form{
+       width:100%;
+       height:100%;   
+   }
+   .main{
+	   text-align:center;
+	   height:100%;
+	   width:100%;
+   }
+   .main:before{
+       content:'';
+	   display:inline-block;
+	   height:100%;
+	   width:1px;
+	   vertical-align:middle;
+   }
+   .contain{
+       display:inline-block;
+	   vertical-align:middle;
+	   height:500px;
+   }
+   .signin-input{
+       width:400px;
+	   text-align:center;
+   }
+           .signin-input > div{
+	           margin-top:20px;
+               position:relative;
+               font-family:'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+           }
+   .signin-input-confirm{
+       margin-top:20px;
+	   width:100%;
+   }
+   #login_button{
+       background-color:#525558;
+	   color:#f5f5f5;  
+	   font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	   letter-spacing:10px;
+	   padding-left:20px;
+   }
+   .switch{
+	   position: absolute;
+	   top: 10px;
+	   right: 10px;
+	   font-size: 12px;
+   }
+   .signup{
+	    display: block;
+		width: 80px;
+		height: 40px;
+		line-height: 40px;
+		background-color: #525558;
+		color: #f5f5f5;
+		font-weight: 700;
+		letter-spacing:5px;
+		text-decoration:none;
+		border:none;
+	    border-radius:4px;
+   }
+    #login_button{
+        background-color:#525558;
+	    color:#f5f5f5;  
+	    font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	    letter-spacing:10px;
+	    padding-left:20px;   
+    }
+    input{
+        font-family:'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+        background-color:#fff;
+        width:100%;
+    }
+    .signin-input > div{
+        position:relative;
+        font-family:'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+    }
+    .signin-input-none{
+        position:absolute;
+        display:inline-block;
+        top: 1px;
+        right: 5px;
+        line-height:41px;
+        padding:0 10px;
+        background-color:#fff;
+        color:#c33;
+        display:none;
+    }
+    .signin-input-wrong{
+        position:absolute;
+        display:inline-block;
+        top: 1px;
+        right: 5px;
+        line-height:41px;
+        padding:0 10px;
+        background-color:#fff;
+        color:#c33;
+        display:none;
+    }
+

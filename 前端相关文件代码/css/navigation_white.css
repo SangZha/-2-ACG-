@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+/* CSS Document */
+	   
+  .navigation{
+	  position:fixed;
+	  right:4%;
+	  top:80%;
+	  transition:all 0.5s ease-in-out;
+	  z-index:233;
+	  
+  }
+	  	  .navigation_style{
+		  	  height:60px;
+			  width:60px;
+			  margin:5px 0;
+			  background:rgba(60,60,60,.95);
+			  border-radius:30px;
+			  text-align:center;
+			  
+		  }
+			  .navigation_style a:before{
+				  content:'';
+				  display:inline-block;
+				  height:100%;
+				  vertical-align:middle;
+			  }		  	  
+			  .navigation_style a img{
+			      width:30px;
+				  height:30px;
+				  display:inline-block;
+				  vertical-align:middle;
+				  margin-left:-4px;
+			  }
+			  #navigation_back_top{
+			      margin-top:40px;
+				  cursor:pointer;
+			  }

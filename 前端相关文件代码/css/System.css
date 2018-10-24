@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+  html,body{
+       padding:0;
+	   margin:0;
+	   font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+   }
+   ul,li{
+	   margin:0;
+	   padding:0;
+	   list-style:none;
+   }
+   a{
+	   text-decoration:none;
+	   color:#f5f5f5;
+   }
+
+	   
+	   
+  #message_bg{
+      background:url(../img/message_bg.jpg)  no-repeat fixed #c0c0c0;
+	  background-size:cover;
+	  overflow-y:scroll;
+  }
+  .message_center{
+      margin:0 auto;
+	  margin-top:20px;
+	  padding:15px;
+	  position:relative;
+	  width:960px;
+	  background:rgba(40,40,40,.50);
+  }
+  
+  .message_header{
+      background:rgba(40,40,40,.95);
+	  border-radius:4px;
+  }
+      .message_header:after{
+		  content:"."; 
+		  height:0; 
+   	 	  visibility:hidden; 
+	 	  display:block; 
+		  clear:both;   
+       }
+  
+  .message_title{
+	  padding-left:40px;
+	  margin-bottom:20px;
+  }
+  	  #message_iconplane{
+	      background:url(../img/message_paperplane.png);
+		  background-size:cover;
+		  display:inline-block;
+		  width:16px;
+		  height:14px;
+		  margin-right:5px;
+	  }
+	  #message_title{
+		  font-size:20px;
+		  line-height:50px; 
+		  color:#f5f5f5;
+		  font-weight:600;
+		  letter-spacing:2px;
+	  }
+  
+  .message_pagnation{
+	  position:relative;
+	  margin-right:20px;
+	  float:right;
+  }	   
+      .message_pagnation ul li {
+          font-size:16px;
+		  float:left;
+		  line-height:50px;
+		  padding:0 20px;
+	   }
+  	 	  .message_pagnation ul li:before{
+	           content:"";
+		 	   display:inline-block;
+			   background:url(../img/message_flower.ico);
+			   background-size:cover;		   
+			   width:15px;
+			   height:15px;
+        	   position:relative;
+			   top:2px;
+			   left:-3px
+	   }
+  .message_group_title{
+       position:relative;
+	   margin-top:16px;
+	   text-align:right;
+	   color:#f5f5f5; 
+	   background:rgba(21,21,21,0.90);
+	   height:42px;
+	   line-height:42px;
+	   padding-right:40px;
+	   border-radius:4px;
+	   }
+	   #emoticons{
+	   	   -webkit-animation:emoticons 5s infinite ease-in-out;
+		   animation:emoticons 5s infinite ease-in-out;
+		   display:inline-block;
+		   font-size:12px;
+		   margin-right:10px;
+	   }
+  .message_main_ul{
+	  margin-top:16px;
+  }
+  	   .message_main_list{
+     	   position:relative;
+		   margin-bottom:16px;
+		   color:#f5f5f5; 
+		   background:rgba(21,21,21,0.90);
+		   min-height:50px;
+	 	   border-radius:4px;
+		   padding:20px 0;
+		   -webkit-animation:scale-in .5s ease .4s backwards;
+		   animation:scale-in .5s ease .4s backwards;
+	   }
+	           .message_main_list:after{
+				   	content:"."; 
+		 			height:0; 
+   	 			    visibility:hidden; 
+	 				display:block; 
+				    clear:both; 
+		       }
+	   	   .main_list_top{
+		       width: 800px;
+			   text-align:center;
+			   margin: 0 auto;
+			   position: relative;
+			   display: block;
+		   }
+		       .main_list_title{
+				   font-weight: bold;
+				   position: relative;
+		   }
+		   .main_list_bottom{
+		       width: 800px;
+			   margin: 0 auto;
+			   position: relative;
+			   display: block;
+		   }
+		       .main_list_content{
+			       color: #b4b4b4;
+				   font-size:14px;
+				   padding-top: 10px;
+				   display: block;
+			   }
+			   .main_list_time{
+			       padding-top: 10px;
+				   font-size:12px;
+				   position: relative;
+				   display: block;
+			   }

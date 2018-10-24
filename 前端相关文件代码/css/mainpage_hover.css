@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.mainpage_wrapper:hover{background-color:rgba(20,20,20,0.1);}
+.mainpage_wrapper:hover #wrapper_title{color:#000;}
+.mainpage_wrapper:hover .wrapper_navigation_title:after{-webkit-transform:scale(1,0) ;transform:scale(1,0) ;}
+.mainpage_wrapper:hover .mainpage_wrapper_navigation:before{-webkit-transform:scale(0,1) ;transform:scale(0,1) ;}
+
+.wrapper_navigation_a:hover{background-color: rgba(33,157,255,1.00)}
+.articlestitle:hover{color:rgba(33,157,255,1.00)}
+.upname:hover{text-decoration:underline}

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SchoolProject">
+  <DataContextMoniker Name="/SchoolProjectDataContext" />
+  <nestedChildShapes>
+    <classShape Id="01933150-4aea-49d2-8409-2aac293fcd12" absoluteBounds="0.5, 0.625, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/SchoolProjectDataContext/Administrators" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dfb4f23d-5eb3-40a7-a71f-83d03f32e97e" absoluteBounds="0.51500000000000012, 1.085, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bc353659-2b53-4b6f-8c28-83fe6aefaf0d" absoluteBounds="5.625, 0.625, 2, 1.7625655110677081">
+      <DataClassMoniker Name="/SchoolProjectDataContext/Articles" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32b997e4-c0fc-422c-95d0-aa8c9f0889fe" absoluteBounds="5.64, 1.085, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="82586b3c-a104-496a-860e-f1568b9b1290" absoluteBounds="5.625, 3.375, 2, 1.7625655110677081">
+      <DataClassMoniker Name="/SchoolProjectDataContext/Comments" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67125ea6-3b40-492a-ba7e-d6bcc689b1fd" absoluteBounds="5.64, 3.835, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.625 : 2.38756551106771); (6.625 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SchoolProjectDataContext/Articles/Articles_Comments" />
+      <nodes>
+        <classShapeMoniker Id="bc353659-2b53-4b6f-8c28-83fe6aefaf0d" />
+        <classShapeMoniker Id="82586b3c-a104-496a-860e-f1568b9b1290" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="06f27b27-99f5-4c6e-a01c-3d0ac93828a7" absoluteBounds="0.5, 3.5, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/SchoolProjectDataContext/Replies" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d3f2abb-3784-499e-81a1-6e52c223811f" absoluteBounds="0.51500000000000012, 3.96, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.625 : 4.65601843969727); (2.5 : 4.65601843969727)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SchoolProjectDataContext/Comments/Comments_Replies" />
+      <nodes>
+        <classShapeMoniker Id="82586b3c-a104-496a-860e-f1568b9b1290" />
+        <classShapeMoniker Id="06f27b27-99f5-4c6e-a01c-3d0ac93828a7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6d3558fd-502b-4e33-a6e6-1ba9803a0ef6" absoluteBounds="3.125, 0.625, 2, 3.0997033691406251">
+      <DataClassMoniker Name="/SchoolProjectDataContext/Users" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8eed982a-9d33-4412-99e4-b4be0e5be0e7" absoluteBounds="3.1399999999999997, 1.085, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.125 : 3.72470336914063); (4.125 : 4.15910940441895); (5.625 : 4.15910940441895)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SchoolProjectDataContext/Users/Users_Comments" />
+      <nodes>
+        <classShapeMoniker Id="6d3558fd-502b-4e33-a6e6-1ba9803a0ef6" />
+        <classShapeMoniker Id="82586b3c-a104-496a-860e-f1568b9b1290" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

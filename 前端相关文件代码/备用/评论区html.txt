@@ -1,0 +1,63 @@
+<div class="article_reply_list" data-id="4">
+                <div class="reply_list_head">
+                    <a href="" target="_blank">
+                        <img src="img/avatar.png" class="reply_user_head">
+                    </a>
+                </div>
+                <div class="reply_list_main">
+                    <div class="reply_user_name">
+                        <a href="" runat="server">暂时</a>
+                    </div>
+                    <p>阿草又是一次测试 </p>
+                    <div class="reply_list_meta">
+                        <span class="floor">#3</span>
+                        <span class="time" runat="server">2017-04-10 10:47:06</span>
+                    </div>
+                    <div class="reply_list_box">
+                        <div class="reply_button">回复</div>
+                    </div>
+                    <div class="reply_list_answer">
+                        <div class="list_answer_box">
+                            <div class="list_answer_head">
+                                <a href="" target="_blank">
+                                    <img src="img/avatar.png" class="reply_answer_head"/>
+                                </a>
+                            </div>
+                            <div class="list_answer_main">
+                                <div class="list_answer_name">
+                                    <a class="reply_answer_name">暂时</a>
+                                    <i></i>
+                                </div>
+                                <div class="list_answer_content">
+                                    <span>这是一次对他人的回复</span>
+                                </div>
+                                <div class="list_answer_meta">
+                                    <span class="time" runat="server">2017-04-10 10:47:06</span>
+                                    <div class="answer_button">回复</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+<div class="article_reply_list" data-id="4">
+                <div class="reply_list_head">
+                    <a href="" target="_blank">
+                        <img src="img/avatar.png" class="reply_user_head"/>
+                    </a>
+                </div>
+                <div class="reply_list_main">
+                    <div class="reply_user_name">
+                        <a href="" runat="server">暂时</a>
+                    </div>
+                    <p>阿草又是一次测试 </p>
+                    <div class="reply_list_meta">
+                        <span class="floor">#3</span>
+                        <span class="time" runat="server">2017-04-10 10:47:06</span>
+                    </div>
+                    <div class="reply_list_box">
+                        <div class="reply_button">回复</div>
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Configuration;
+using System.Data.SqlClient;
+
+public partial class Ajax_Default : System.Web.UI.Page
+{
+    string constr = ConfigurationManager.ConnectionStrings["SchoolProjectConnectionString"].ConnectionString;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        string str1;
+        string str2; string str3;
+        SqlConnection Cn = new SqlConnection(constr);
+        Cn.Open();
+        SqlCommand CmId = new SqlCommand("SELECT ReplyId FROM Replies WHERE ArticleId ='3'", Cn);
+        SqlDataReader DrId = CmId.ExecuteReader();
+        DrId.Read();
+            str1 = DrId["ReplyId"].ToString();
+        DrId.Read();
+            str2 = DrId["ReplyId"].ToString();
+        DrId.Read();
+            str3 = DrId["ReplyId"].ToString();
+        DrId.Close();
+        Response.Write("<script>alert(" + str2 + ");</script>");
+    }
+}

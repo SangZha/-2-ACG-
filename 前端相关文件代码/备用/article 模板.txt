@@ -1,0 +1,27 @@
+<!-- <article>
+        <header class="articles_entire_header">
+            <div class="articles_entire_avatar">
+                <a href="" class="avatar_links">
+                    <img src="img/header_head.jpg" alt="" class="avatar_img">
+                </a>
+            </div>
+            <div class="articles_entire_decription">
+                <h1 class="articles_entire_titles">
+                    <a href="Article.aspx" class="articlestitle">[游戏][Left for Dead 2/求生之路]</a>
+                </h1>
+                <div class="articles_entire_ups">
+                    <span class="articles_entire_upsby">由</span>
+                    <span class="articles_entire_upsname">
+                        <a href="" class="upname">我是你亲父亲啊</a>
+                    </span>
+                    <span class="articles_entire_upsby">发表</span>
+                </div>
+            </div>
+        </header>
+        <div class="articles_entire_content">
+            <p>每到这个时候我就不知道该说些什么，反正点也点不进去，我就随便介绍下也给大家拜个早年吧。每到这个时候我就不知道该说些什么，反正点也点不进去，我就随便介绍下也给大家拜个早年吧。每到这个时候我就不知道该说些什么，反正点也点不进去，我就随便介绍下也给大家拜个早年吧。</p>
+        </div>
+        <footer class="articles_entire_footer">
+            <time class="articles_entire_time" datetime="2016-12-03T15:08:43+00:00">2016年12月3日</time>
+        </footer>
+    </article>        文章预览模板-->
